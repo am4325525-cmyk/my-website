@@ -1,0 +1,72 @@
+/* تصميم عام */
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* الغلاف */
+.cover {
+  background: url('venom.jpg') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+}
+
+/* المحتوى */
+main {
+  padding: 30px;
+  background: #f9f9f9;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #0078ff;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* الفوتر */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0078ff;
+  color: #fff;
+}
